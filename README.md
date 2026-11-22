@@ -8,7 +8,28 @@ A three-stage robotics demo that uses a pretrained vision-language model (VLM) t
 
 > **Scope:** This is a *vision-language-guided object-selection and assisted pick-and-place* prototype, **not** an end-to-end learned robot policy. The VLM chooses the target color from a rendered image; the controller reads the object's known simulation coordinates and uses a temporary fixed constraint for assisted grasping.
 
-## Demo
+## Demo: VLM-Guided Robotic Manipulation
+
+This demonstration shows a pretrained Qwen3-VL-2B-Instruct
+model integrated with a Franka Panda robotic arm in PyBullet.
+
+The system:
+1. Captures an image of the simulated workspace.
+2. Receives a natural-language instruction.
+3. Uses Qwen3-VL to select the requested object.
+4. Executes an assisted pick-and-place operation.
+5. Displays the final object position.
+
+**Example instruction:** `Pick the blue cube`
+
+**VLM output:** `blue`
+
+**Result:** The robotic arm moves the selected cube
+to the designated drop-off location.
+
+### Video Demonstration
+
+https://github.com/user-attachments/assets/c0c38f29-57a9-432b-93e4-b3346198efc5
 
 **Example instruction:** `pick the blue cube`
 
