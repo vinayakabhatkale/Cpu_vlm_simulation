@@ -30,6 +30,7 @@ to the designated drop-off location.
 ### Video Demonstration
 
 https://github.com/user-attachments/assets/c0c38f29-57a9-432b-93e4-b3346198efc5
+
 https://github.com/user-attachments/assets/320bad31-fe7f-4f97-aa4b-632ff23f85f6
 
 **Example instruction:** `pick the blue cube`
