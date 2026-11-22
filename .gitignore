@@ -1,0 +1,35 @@
+# Python and local virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local settings / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local model weights and caches
+*.gguf
+*.safetensors
+models/
+
+# Generated simulation camera images
+robot_camera.png
+vlm_view.png
+vlm_after.png
+
+# Large local screen recordings (embed a short GIF in assets/ instead)
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Misc
+.DS_Store
+.idea/
+.vscode/

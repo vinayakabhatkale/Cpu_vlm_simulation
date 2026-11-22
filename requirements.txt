@@ -1,0 +1,5 @@
+
+pybullet==3.2.7
+ollama==0.6.3
+numpy>=1.26,<3
+Pillow>=10,<13
